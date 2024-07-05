@@ -56,8 +56,8 @@ function toggleTheme() {
     const sunMoonToggle = document.getElementById('sun-moon-toggle');
     
     // تحديد الصور حسب الوضع الحالي
-    const sunImage = 'Images/sun.png'; // صورة الشمس
-    const moonImage = 'Images/moon.png'; // صورة القمر
+    const sunImage = 'sun.png'; // صورة الشمس
+    const moonImage = 'moon.png'; // صورة القمر
 
     // التأكد من الوضع الحالي وتبديل الصورة
     if (body.classList.contains('light-mode')) {
